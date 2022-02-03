@@ -10568,6 +10568,10 @@ textarea.form-control-lg {
   padding-bottom: 2.5rem !important;
 }
 
+.pb-6{
+    padding-bottom: 3.5rem !important;
+}
+
 .pb-10 {
   padding-bottom: 6rem !important;
 }
@@ -21024,4 +21028,59 @@ pre[class*=language-] {
 
 .token.variable {
   color: #ff6666;
+}
+
+.calendar-top .title{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.calendar {
+    width: 100%;
+}
+
+.calendar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.calendar li {
+    display: block;
+    float: left;
+    width: 14.342%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+
+.calendar ul.weekdays {
+    height: 40px;
+}
+
+.calendar ul.weekdays li {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 20px;
+    border: none !important;
+    padding: 10px 6px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.calendar .days li {
+    height: 180px;
+}
+
+.calendar .days li:hover {
+    background: #efefef;
+}
+
+.calendar-wrap .modal label{
+    width: 17%;
+    padding: 10px 0;
+    font-weight: bold;
 }
