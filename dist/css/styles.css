@@ -21075,6 +21075,10 @@ pre[class*=language-] {
     height: 180px;
 }
 
+.calendar .days li .meals .del{
+  cursor: pointer;
+} 
+
 .calendar .days li:hover {
     background: #efefef;
 }
